@@ -18,7 +18,7 @@ spec:
     path: ./helm/app
   destination:
     server: https://kubernetes.default.svc
-    namespace: poi
+    namespace: react-app-demo
   syncPolicy:
     automated: 
       prune: true
