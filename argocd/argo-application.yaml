@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: react-web-argo-application
-  namespace: react-app-demo
+  namespace: openshift-gitops
   labels:
     argocd/app-name: react-web-argo-application
   annotations:
