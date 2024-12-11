@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.io/anattama/my-web-react-app
+  repository: quay.io/redhat_na_ssa/azure-pipeline-demo-react-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: f1754673f7315e3b0424624fd35623a09ce703b6
