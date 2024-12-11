@@ -13,7 +13,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL:  https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app.git
+    repoURL:  https://github.com/redhat-na-ssa/azure-pipeline-demo-react-app-gitops.git
     targetRevision: HEAD
     path: ./helm/app
   destination:
